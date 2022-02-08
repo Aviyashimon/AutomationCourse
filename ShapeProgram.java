@@ -2,6 +2,8 @@ public class ShapeProgram {
     public static void main(String[] args) {
         Triangle triangle = new Triangle(5, 5, 5);
         Square square = new Square(5);
+        System.out.println("Number of edges in a square is: " + Square.numOfEdges);
+        System.out.println("Number of edges in a triangle is: " + Triangle.numOfEdges);
 
         int sPerimeter = square.calculatePerimeter();
         int tPerimeter = triangle.calculatePerimeter();
