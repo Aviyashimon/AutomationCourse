@@ -1,3 +1,3 @@
 public class Constants {
-    public static final String PASSWORD = "123";
+    public final String PASSWORD = "123";
 }

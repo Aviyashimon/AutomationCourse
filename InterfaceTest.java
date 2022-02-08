@@ -1,3 +1,5 @@
+import java.rmi.MarshalledObject;
+
 public class InterfaceTest {
     public static void main(String[] args) {
         Movable plane = new Airplane();
@@ -5,5 +7,6 @@ public class InterfaceTest {
 
         Movable car = new Car();
         car.move();
+
     }
 }

@@ -5,5 +5,10 @@ public class AbstractTest {
 
         Employee p = new Programmer();
         p.work();
+
+        QaEngineer q = new QaEngineer();
+        q.work();
+        q.print();
+
     }
 }
